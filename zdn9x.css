@@ -1,0 +1,28 @@
+
+	<---/Basic Style--->
+	body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+    body, html {height: 100%; color: #777; line-height: 1.8;}
+    .bgimg-1, .bgimg-2, .bgimg-3 {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}
+    .bgimg-1 {background-image: url(''); min-height: 50%;}
+    .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+    @media only screen and (max-device-width: 1024px) {.bgimg-1, .bgimg-2, .bgimg-3 {background-attachment: scroll;}}
+    #navbar-iframe {height:0px; visibility:hidden; display:none}
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    .slideshow-container {max-width: 1000px; position: relative; margin: auto;}
+    .text {color: #f2f2f2; font-size: 15px; padding: 8px 12px; position: absolute; bottom: 8px; width: 100%; text-align: center;}
+    .active {background-color: #717171;}
+    .fade {-webkit-animation-name: fade; -webkit-animation-duration: 5s; animation-name: fade; animation-duration: 5s;}
+    @-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+    @keyframes fade {from {opacity: .4} to {opacity: 1}}
+    @media only screen and (max-width: 300px) {.text {font-size: 11px}}
+    body{user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -khtml-user-select: none;}
+    function thesis_footer_area() {thesis_hook_before_footer(); thesis_footer(); thesis_hook_after_footer();}
+    function thesis_footer() {echo “\t<div id=\”footer\”>\n”; thesis_hook_footer(); thesis_admin_link(); wp_footer(); echo “\t</div>\n”;}
+    function thesis_attribution() {echo “\t\t<p>” . sprintf(__(‘‘) . “</p>\n”;}
+    <!---Font Alegreya SC Regular--->
+    @font-face { font-family: 'AlegreyaSC'; src: url('https://rawgit.com/mrmadan56/zdn9x/master/alegreya-sc.regular.ttf'); src: url('https://rawgit.com/mrmadan56/zdn9x/master/alegreya-sc.regular.ttf') format('truetype'); }
+    <!---Font Alegreya SC Regular--->
