@@ -1,0 +1,45 @@
+/**
+ * zdn9x.js
+ * @version v7.7.7
+ * @copyright 2018 zDN9X®
+ * @link https://github.com/mrmadan56/zdn9x
+ */
+ 
+/***PRYMARY STYLE***/
+img {max-width: 100%;}
+.site-header {position: relative;}
+.site-header .mdl-layout__header-row {padding: 0; -ms-flex-pack: center; justify-content: center;}
+.site-description {display: block; font-size: 14px; text-align: center; font-weight: 400; margin-bottom: 10px;}
+.is-compact .mdl-layout__title span {display: none;}
+.site-logo-row {min-height: 200px;}
+.is-compact .site-logo-row {min-height: auto;}
+.site-logo {background: url(https://lh3.googleusercontent.com/-LZkG7IGWdTY/W20HmiwDJTI/AAAAAAAAI8k/B2USz-OWu0UepN7j-fLQ836rCODwW3z1ACLcBGAs/h512/site-logo.png) 50% no-repeat;background-size: cover;height: 120px;width: 120px;margin: 15px auto;}
+.is-compact .site-logo {height: 0px;width: 0px;margin: 0px auto;}
+.site-navigation-row {background-color: rgba(0, 0, 0, 0.08);text-transform: uppercase;height: 45px;}
+.site-navigation-row .mdl-navigation {text-align: center;max-width: 900px;width: 100%;}
+.site-navigation-row .mdl-navigation__link {-ms-flex: 1;flex: 1;line-height: 42px;color: #fff;}
+.site-navigation-row .is-active {position: relative;font-weight: bold;opacity: 1;}
+.site-navigation-row .mdl-navigation__link:hover {opacity: 1;}
+.mdl-layout__header .mdl-layout__drawer-button {color: #fff;}
+.mdl-layout__content {background-color: #fefefe;}
+.mdl-layout__content {    height: 100%; height: 50%; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url("https://lh3.googleusercontent.com/-7P7l3K43feY/W20qJAkam6I/AAAAAAAAI84/KCBL9PcT1j8VuerHmyiDxpEJEGBxKdtwACLcBGAs/h2436/papers.co-sf05-night-city-view-lights-gradation-blur-41-iphone-wallpaper.jpg");}
+.page-content {padding-bottom: 2em;}
+.site-max-width {max-width: 900px;margin: auto;}
+.site-copy {max-width: 700px;}
+.homepage-footer {background: #eee;margin-bottom: -1em;padding: 2rem 0;}
+.form-contact .mdl-textfield {width: 100%;}
+#contact-button {position: fixed;display: block;right: 0;bottom: 0;margin-right: 40px;margin-bottom: 40px;z-index: 900;}
+footer .mdl-logo a {color: #fff;text-decoration: none;border-bottom: 1px dotted #aaa;}
+.footer-container {margin: 0 auto;}
+#navbar-iframe {height:0px; visibility:hidden; display:none}
+
+/***PHOTO HISTORY***/
+.slideshow-container {max-width: 1000px; position: relative; margin: auto;}
+.active {background-color: #717171;}
+.fade {-webkit-animation-name: fade; -webkit-animation-duration: 5s; animation-name: fade; animation-duration: 5s;}
+@-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+@media only screen and (max-width: 300px) {.text {font-size: 11px}}
+
+/***FONT DANIEL BLACK***/
+@font-face {font-family: 'Daniel Black'; font-style: normal; src: url(https://raw.githubusercontent.com/mrmadan56/zdn9x/master/Daniel-Black.otf) format('truetype');}
